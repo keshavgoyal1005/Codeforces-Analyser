@@ -1,0 +1,315 @@
+body {
+    /* font-family: "Reckless Neue", Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif; */
+    /* font-family: 'Roboto', sans-serif !important; */
+    /* background-color: #666; */
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), Semi-transparent white gradient
+                url('path/to/your/image.jpg'); 
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    backdrop-filter: blur(10px); /* Adds a blur effect to simulate glass */
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+}
+
+.container {
+    /* font-family: "Reckless Neue", Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif; */
+    /* font-family: 'Roboto', sans-serif !important; */
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 80px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    margin-bottom: 10px;
+}
+
+.rating-800 {
+    background-color: #ffe5b4;
+}
+
+.rating-900 {
+    background-color: #c2f0c2;
+}
+
+.rating-1000 {
+    background-color: #b3e0ff;
+}
+
+.rating-1100 {
+    background-color: #ffccff;
+}
+
+.rating-1200 {
+    background-color: #ffb3b3;
+}
+
+.rating-1300 {
+    background-color: #ffcccc;
+}
+
+.rating-1400 {
+    background-color: #ff9999;
+}
+
+.rating-1500 {
+    background-color: #ffcc99; /* Light peach */
+}
+
+.rating-1600 {
+    background-color: #ffa366; /* Light orange */
+}
+
+.rating-1700 {
+    background-color: #ff704d; /* Light red-orange */
+}
+
+.rating-1800 {
+    background-color: #ff4d4d; /* Light coral */
+}
+
+.rating-1900 {
+    background-color: #ff3333; /* Light red */
+}
+
+.rating-2000 {
+    background-color: #ff1a1a; /* Light bright red */
+}
+
+.rating-2100 {
+    background-color: #e60000; /* Light dark red */
+}
+
+.rating-2200 {
+    background-color: #ffb3d9; /* Light pink */
+}
+
+.rating-2300 {
+    background-color: #ff80b3; /* Light magenta */
+}
+
+.rating-2400 {
+    background-color: #ff6699; /* Light medium magenta */
+}
+
+.rating-2500 {
+    background-color: #ff3385; /* Light strong magenta */
+}
+
+.rating-2600 {
+    background-color: #ff1a66; /* Light dark magenta */
+}
+
+.rating-2700 {
+    background-color: #e6005c; /* Light maroon */
+}
+
+.rating-2800 {
+    background-color: #cc0044; /* Light dark maroon */
+}
+
+.rating-2900 {
+    background-color: #990033; /* Light very dark maroon */
+}
+
+.rating-3000 {
+    background-color: #f2f2ff; /* Light lavender */
+}
+
+.rating-3100 {
+    background-color: #e6e6ff; /* Light purple */
+}
+
+.rating-3200 {
+    background-color: #ccccff; /* Light medium purple */
+}
+
+.rating-3300 {
+    background-color: #b3b3ff; /* Light dark purple */
+}
+
+.rating-3400 {
+    background-color: #9999ff; /* Light very dark purple */
+}
+
+.rating-3500 {
+    background-color: #8080ff; /* Light blue */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+} */
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: #fff; /* Text color */
+}
+
+th {
+    background-color: #007bff; /* Blue background for headers */
+}
+
+td a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+td a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.cheating-message {
+    color: #ff0000; /* Red color */
+    font-weight: bold; /* Bold font */
+}
+
+
+.footer{
+    margin-top: 100px;
+    
+    /* color: white; */
+    /* font-family: ; */
+}
+
+/* .photo{
+    height: 40px;
+    width: 40px;
+} */
+
+
+
+/* scroll button  */
+
+/* .scroll-buttons-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000; 
+}
+
+
+.scroll-buttons-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-buttons button:hover {
+    background-color: #0056b3;
+} */
+
+/* .scroll-buttons button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+} */
+
+

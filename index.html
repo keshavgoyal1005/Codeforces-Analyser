@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Codeforces Analysis
+    </title>
+    <link rel="icon" type="image/x-icon" href="code-forces.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="photo" src="code-forces.svg" alt="" srcset="">
+        <h1>Codeforces Analyser</h1>
+        <input type="text" id="codeforcesID" placeholder="Enter Codeforces Handle">
+        <button onclick="fetchSolvedProblems()">Fetch Data</button>
+        <div id="solvedProblems"></div>
+    </div>
+
+
+    <!-- scroll button  -->
+
+    <!-- <div class="scroll-buttons">
+        <button id="scrollToTopBtn">Scroll to Top</button>
+        <button id="scrollToBottomBtn">Scroll to Bottom</button>
+    </div> -->
+
+    <!-- Footer -->
+    <div class="footer">&copy;<span id="year">2024</span><span> Made by <a
+                href="https://linkedin.com/in/keshav-goyal-225268217/" target="_blank" class="no-underline">Keshav
+                Goyal</a>, NIT Durgapur</span></div>
+
+</body>
+
+</html>
